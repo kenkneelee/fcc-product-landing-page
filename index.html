@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+
+<style>#nav3 {
+    display:inline-flex;
+}
+
+@media (max-width:800px) {
+    #nav3 {
+        flex-direction: column;
+    }
+}
+</style>
+
+
 <html>
 
 <head>
@@ -8,9 +21,37 @@
 </head>
 
 <body>
-    <header>
-
+    <header id="header">
+        <img src="http://" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <a class="nav-link" href="#video">Video</a>
+                <a class="nav-link" href="#newsletter">Form</a>
+                <a class="nav-link" href="#nav3">nav3</a>
+            </ul>
+        </nav>
     </header>
+<div id="vidcontainer">
+    Product Video
+    <video id="video" src="" controls></video>
+</div>
+
+<div id="newsletter">Newsletter
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" id="email" placeholder="Enter your email address..." name="email">
+        <input type="submit" id="submit">
+    </form>
+</div>
+
+
+<div id="nav3">3
+    <div class="tier">Tier 1 product</div>
+    <div class="tier">Tier 2 product</div>
+    <div class="tier">Tier 3 product</div>
+
+</div>
+
+
 </body>
 
 
