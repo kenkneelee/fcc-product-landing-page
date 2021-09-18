@@ -1,7 +1,42 @@
-#nav3 {
+/* Colors */
+/*
+    color:#b02927;
+    color:#ffffff;
+    color:#73BDB8;
+    color:#307A70;
+    color:#0F3638; */
+
+
+
+#nav-bar {
     display:inline-flex;
+    position:fixed;
+    justify-content: space-between;
+    top:0px;
+    width:100%;
+    background-color: #b02927;
+    align-items: center;
 }
 
-.tier {
+#header-img {
+max-height:5rem;
+width:auto;
+}
 
+#logo {
+    display:flex;
+    align-items: center;
+}
+
+#nav-links {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    padding:0px 2rem;
+}
+
+body {
+    margin-top:5rem;
 }
