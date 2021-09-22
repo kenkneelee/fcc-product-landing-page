@@ -15,7 +15,7 @@ html {
 body {
         margin:0px;
         margin-top:4rem;
-        background-color:black;
+        background-color:#45585e;
         color:white;
         height:100%;
     }    
@@ -29,6 +29,7 @@ body {
     background-color: #b02927;
     color:white;
     align-items: center;
+    opacity:0.8;
 }
 
 #header-img {
@@ -54,6 +55,13 @@ a {
     padding:0px 2rem;
 }
 
+h3 {
+    display:flex;
+    justify-content: center;
+}
+
+
+
 #landingcontainer {
     background-image: url(../images/betta1-removebg.png);
     background-position:right;
@@ -71,6 +79,9 @@ a {
 #landing {
     justify-content: center;
     text-align: center;
+    border-radius:1rem;
+    border:2px white solid;
+    padding:5%;
 }
 
 #brand {
@@ -79,8 +90,19 @@ a {
 }
 
 
+#vidcontainer {
+    display:flex;
+    justify-content: center;
+}
+
+#newsletter {
+    display:flex;
+    justify-content: center;
+}
+
 #products {
-    display:inline-flex;
+    display:flex;
+    justify-content: center;
 }
 
 @media (max-width:800px) {
