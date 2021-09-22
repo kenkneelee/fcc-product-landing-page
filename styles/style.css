@@ -5,8 +5,11 @@
     color:#73BDB8;
     color:#307A70;
     color:#0F3638; */
+
+
 html {
     height:100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
