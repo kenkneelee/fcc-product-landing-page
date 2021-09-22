@@ -14,8 +14,10 @@
     justify-content: space-between;
     top:0px;
     width:100%;
-    background-color: #b02927;
+    background-color: #73BDB8;
     align-items: center;
+    color:#ffffff;
+    border-radius: 1rem;
 }
 
 #header-img {
