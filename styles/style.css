@@ -2,9 +2,7 @@
 /*
     color:#b02927;
     color:#ffffff;
-    color:#73BDB8;
-    color:#307A70;
-    color:#0F3638; */
+    color:#36393b; */
 
 
 html {
@@ -15,7 +13,7 @@ html {
 body {
         margin:0px;
         margin-top:4rem;
-        background-color:#45585e;
+        background-color:#36393b;
         color:white;
         height:100%;
     }    
@@ -102,7 +100,7 @@ h3 {
 
 #products {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 @media (max-width:800px) {
