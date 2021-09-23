@@ -28,6 +28,7 @@ main {
     position:fixed;
     justify-content: space-between;
     top:0px;
+    left:0px;
     width:100%;
     background-color: #b02927;
     color:white;
