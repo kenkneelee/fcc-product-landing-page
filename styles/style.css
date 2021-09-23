@@ -61,6 +61,7 @@ a {
 h2 {
     display:flex;
     justify-content: center;
+    margin-top:4rem;
 }
 
 
@@ -91,9 +92,13 @@ h2 {
 
 #vidcontainer {
     display:flex;
-    justify-content: center;
-    border-radius:1rem;
+    align-items: center;
+    row-gap: 2rem;
+    flex-direction: column;
+    justify-content:space-evenly;
+    border-radius: 1rem;
     border:1px solid white;
+    padding:3rem;
 }
 
 #viddiv {
@@ -101,6 +106,7 @@ h2 {
     border-radius: 1rem;
     border: 1px solid white;
 }
+
 
 #newsletter {
     display:flex;
