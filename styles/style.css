@@ -134,11 +134,18 @@ li {
         border:1px solid white;
         margin:auto;
         padding:3rem;
+        background-color: rgba(176, 41, 39, 0.8);
 }
 
 .tierpic {
     width:100%;
-    height:auto;
+    max-height:30fr;
+    opacity:0.5;
+}
+
+.tierpic:hover {
+    opacity:1;
+    transition:0.5s;
 }
 
 #newsletter {
