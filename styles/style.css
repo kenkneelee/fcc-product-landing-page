@@ -127,14 +127,16 @@ li {
     display:flex;
     justify-content: space-evenly;
     column-gap:3rem;
+    align-items: stretch;
 }
 
 .tier {
     border-radius:1rem;
-        border:1px solid white;
-        margin:auto;
-        padding:3rem;
-        background-color: rgba(176, 41, 39, 0.8);
+    border:1px solid white;
+    margin:auto;
+    padding:3rem;
+    background-color: rgba(176, 41, 39, 0.8);
+    
 }
 
 .tierpic {
